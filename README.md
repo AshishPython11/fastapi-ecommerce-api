@@ -6,10 +6,10 @@ This is a **FastAPI-based E-commerce API** using **SQLModel** and **MySQL** to m
 ---
 
 ## Features
-- ✅ CRUD operations for **Products** & **Orders**
-- ✅ **SQLModel + MySQL** for database management
-- ✅ **Pydantic validation** for request handling
-- ✅ **Auto-generated API docs** with Swagger UI
+-  CRUD operations for **Products** & **Orders**
+-  **SQLModel + MySQL** for database management
+-  **Pydantic validation** for request handling
+-  **Auto-generated API docs** with Swagger UI
 
 ---
 
@@ -55,27 +55,7 @@ uvicorn main:app --reload
 The API will be available at:  
 🔹 **http://127.0.0.1:8000**
 
----
 
-##  API Endpoints
-
-### **Products**
-| Method  | Endpoint         | Description                            |
-|---------|-----------------|----------------------------------------|
-| `POST`  | `/products/`     | Create a new product                  |
-| `GET`   | `/products/{id}` | Get product by ID                     |
-| `PUT`   | `/products/{id}` | Update **name & description** only    |
-| `DELETE`| `/products/{id}` | Delete a product                      |
-
-### **Orders**
-| Method  | Endpoint          | Description                           |
-|---------|------------------|--------------------------------------|
-| `POST`  | `/orders/`       | Create a new order                   |
-| `GET`   | `/orders/{id}`   | Get order by ID                      |
-| `PUT`   | `/orders/{id}/status` | Update order status          |
-| `DELETE`| `/orders/{id}`   | Delete an order                      |
-
----
 
 ##  API Documentation
 FastAPI automatically generates interactive API documentation:
@@ -140,6 +120,6 @@ GitHub: [AshishPython11](https://github.com/AshishPython11)
 
 ---
 
-## 📌 License
+##  License
 This project is **open-source** and available under the **MIT License**.
 
