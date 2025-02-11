@@ -57,7 +57,7 @@ The API will be available at:
 
 ---
 
-## 📌 API Endpoints
+##  API Endpoints
 
 ### **Products**
 | Method  | Endpoint         | Description                            |
@@ -67,7 +67,7 @@ The API will be available at:
 | `PUT`   | `/products/{id}` | Update **name & description** only    |
 | `DELETE`| `/products/{id}` | Delete a product                      |
 
-### ** Orders**
+### **Orders**
 | Method  | Endpoint          | Description                           |
 |---------|------------------|--------------------------------------|
 | `POST`  | `/orders/`       | Create a new order                   |
