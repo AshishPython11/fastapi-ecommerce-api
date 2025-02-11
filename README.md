@@ -59,7 +59,7 @@ The API will be available at:
 
 ## 📌 API Endpoints
 
-### **🛍️ Products**
+### **Products**
 | Method  | Endpoint         | Description                            |
 |---------|-----------------|----------------------------------------|
 | `POST`  | `/products/`     | Create a new product                  |
@@ -67,7 +67,7 @@ The API will be available at:
 | `PUT`   | `/products/{id}` | Update **name & description** only    |
 | `DELETE`| `/products/{id}` | Delete a product                      |
 
-### **🛒 Orders**
+### ** Orders**
 | Method  | Endpoint          | Description                           |
 |---------|------------------|--------------------------------------|
 | `POST`  | `/orders/`       | Create a new order                   |
@@ -77,7 +77,7 @@ The API will be available at:
 
 ---
 
-## 📌 API Documentation
+##  API Documentation
 FastAPI automatically generates interactive API documentation:
 
 - **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
@@ -85,7 +85,7 @@ FastAPI automatically generates interactive API documentation:
 
 ---
 
-## 📌 Example API Requests
+## Example API Requests
 
 ### **1️⃣ Create a Product**
 #### **Request**
@@ -128,14 +128,14 @@ POST /orders/
 
 ---
 
-## 📌 Contribution & Support
+## Contribution & Support
 - If you find any issues, please **open an issue** on GitHub.
 - Pull requests are welcome for improvements.
 
 ---
 
-## 📌 Author
-Developed by **[Your Name]**  
+## Author
+Developed by **Ashish Mishra**  
 GitHub: [AshishPython11](https://github.com/AshishPython11)
 
 ---
