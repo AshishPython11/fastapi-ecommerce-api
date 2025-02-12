@@ -64,19 +64,3 @@ FastAPI automatically generates interactive API documentation:
 - **Redoc UI**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
 ---
-
-## Contribution & Support
-- If you find any issues, please **open an issue** on GitHub.
-- Pull requests are welcome for improvements.
-
----
-
-## Author
-Developed by **Ashish Mishra**  
-GitHub: [AshishPython11](https://github.com/AshishPython11)
-
----
-
-##  License
-This project is **open-source** and available under the **MIT License**.
-
