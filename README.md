@@ -13,6 +13,7 @@ This is a **FastAPI-based E-commerce API** using **SQLModel** and **MySQL** to m
 
 ---
 
+
 ## Setup & Installation
 
 ### **1️⃣ Clone the Repository**
@@ -57,27 +58,8 @@ The API will be available at:
 
 ---
 
-## 📌 API Endpoints
 
-### **🛍️ Products**
-| Method  | Endpoint         | Description                            |
-|---------|-----------------|----------------------------------------|
-| `POST`  | `/products/`     | Create a new product                  |
-| `GET`   | `/products/{id}` | Get product by ID                     |
-| `PUT`   | `/products/{id}` | Update **name & description** only    |
-| `DELETE`| `/products/{id}` | Delete a product                      |
-
-### **🛒 Orders**
-| Method  | Endpoint          | Description                           |
-|---------|------------------|--------------------------------------|
-| `POST`  | `/orders/`       | Create a new order                   |
-| `GET`   | `/orders/{id}`   | Get order by ID                      |
-| `PUT`   | `/orders/{id}/status` | Update order status          |
-| `DELETE`| `/orders/{id}`   | Delete an order                      |
-
----
-
-## 📌 API Documentation
+##  API Documentation
 FastAPI automatically generates interactive API documentation:
 
 - **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
@@ -85,61 +67,18 @@ FastAPI automatically generates interactive API documentation:
 
 ---
 
-## 📌 Example API Requests
-
-### **1️⃣ Create a Product**
-#### **Request**
-```json
-POST /products/
-{
-  "name": "Laptop",
-  "description": "High-performance laptop",
-  "price": 1299.99
-}
-```
-#### **Response**
-```json
-{
-  "id": 1,
-  "name": "Laptop",
-  "description": "High-performance laptop",
-  "price": 1299.99
-}
-```
-
-### **2️⃣ Create an Order**
-#### **Request**
-```json
-POST /orders/
-{
-  "customer_id": 101,
-  "product_ids": [1, 2, 3]
-}
-```
-#### **Response**
-```json
-{
-  "id": 1,
-  "customer_id": 101,
-  "product_ids": "1,2,3",
-  "status": "pending"
-}
-```
-
----
-
-## 📌 Contribution & Support
+##  Contribution & Support
 - If you find any issues, please **open an issue** on GitHub.
 - Pull requests are welcome for improvements.
 
 ---
 
-## 📌 Author
+##  Author
 Developed by **[Your Name]**  
 GitHub: [AshishPython11](https://github.com/AshishPython11)
 
 ---
 
-## 📌 License
+## License
 This project is **open-source** and available under the **MIT License**.
 
